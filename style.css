@@ -109,3 +109,22 @@ h2.app-title {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+  h2.app-title {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  img {
+    display: none;
+  }
+
+  .nav-button {
+    display: flex;
+    justify-content: center;
+  }
+}
