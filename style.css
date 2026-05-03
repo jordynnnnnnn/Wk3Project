@@ -111,6 +111,14 @@ h2.app-title {
 }
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
   h2.app-title {
     text-align: center;
   }
@@ -119,8 +127,14 @@ h2.app-title {
     text-align: center;
   }
 
-  img {
+  .img-fluid.rounded {
     display: none;
+  }
+
+  .img-fluid.p-2.shadow.rounded {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
   }
 
   .nav-button {
